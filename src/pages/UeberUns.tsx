@@ -10,10 +10,10 @@ const UeberUns = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Über uns & Service | Treffer Heizöl | Premium Heizöl-Händler"
-        description="Treffer Heizöl – Ihr vertrauensvoller Partner für Heizöl. Innovatives Unternehmen aus Bayern mit über 100.000 zufriedenen Kunden deutschlandweit."
-        keywords="Treffer Heizöl, Bayern, Buchdorf, Heizöl Unternehmen, Premium Heizöl"
-        canonicalUrl="https://treffer-heizoel.de/ueber-uns"
+        title="Über uns & Service | AHI-Energie | Premium Heizöl-Händler"
+        description="AHI-Energie – Ihr vertrauensvoller Partner für Heizöl. Innovatives Unternehmen aus Frankfurt am Main mit über 100.000 zufriedenen Kunden deutschlandweit."
+        keywords="AHI-Energie, Bremen, Frankfurt am Main, Heizöl Unternehmen, Premium Heizöl"
+        canonicalUrl="https://ahi-energie.de/ueber-uns"
       />
       <Header />
       
@@ -31,7 +31,7 @@ const UeberUns = () => {
             </h1>
             
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ihr vertrauensvoller Partner für Heizöl in Bayern und ganz Deutschland. 
+              Ihr vertrauensvoller Partner für Heizöl in Frankfurt am Main und ganz Deutschland. 
               Digitaler Vorreiter mit Tradition und modernster Technik.
             </p>
           </div>
@@ -42,9 +42,9 @@ const UeberUns = () => {
       <PageSection className="py-24" background="warm">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Treffer Heizöl</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">AHI-Energie</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Ihre vertrauensvolle Adresse für Premium-Heizöl aus Bayern
+              Ihre vertrauensvolle Adresse für Premium-Heizöl aus Frankfurt am Main
             </p>
           </div>
           
@@ -54,8 +54,8 @@ const UeberUns = () => {
                 <h3 className="text-2xl font-bold mb-6 text-primary">Unsere Geschichte</h3>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed text-lg">
-                    Seit 1975 sind wir Ihr vertrauensvoller Partner für Premium-Heizöl in Bayern 
-                    und ganz Deutschland. Mit über 50 Jahren Erfahrung und Expertise haben wir uns 
+                    Seit 1975 sind wir Ihr vertrauensvoller Partner für Premium-Heizöl in Frankfurt am Main 
+                    und ganz Deutschland. Mit über 50 Jahren Erfahrung und Expertise haben wir uns
                     als einer der führenden Heizöl-Händler etabliert. Was vor einem halben Jahrhundert 
                     als familiengeführtes Unternehmen begann, ist heute ein modernes, deutschlandweit 
                     agierendes Premium-Unternehmen mit modernsten Tankfahrzeugen und volldigitalisierten 
@@ -88,7 +88,7 @@ const UeberUns = () => {
                   </div>
                   <div className="flex justify-between items-center p-4 bg-primary/5 rounded-xl border border-primary/20">
                     <span className="text-gray-600 font-medium">Standort:</span>
-                    <span className="font-bold text-gray-900">Buchdorf, Bayern</span>
+                    <span className="font-bold text-gray-900">Bremen</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <span className="text-gray-600 font-medium">Liefergebiet:</span>
@@ -273,7 +273,7 @@ const UeberUns = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Kontakt & Standort</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ihre Ansprechpartner in Bayern - wir sind für Sie da
+              Ihre Ansprechpartner in Bremen - wir sind für Sie da
             </p>
           </div>
           
@@ -290,17 +290,16 @@ const UeberUns = () => {
                 
                 <div className="space-y-6 text-center">
                   <div className="p-4 bg-white/60 rounded-xl border border-white/40">
-                    <p className="font-bold text-lg text-gray-900 mb-2">Treffer Heizöl (Treffer GmbH)</p>
+                    <p className="font-bold text-lg text-gray-900 mb-2">AHI-Energie (AHI Energie KG)</p>
                     <p className="text-gray-700">
-                      Anton-Jaumann-Str. 1<br/>
-                      86675 Buchdorf
+                      Louis-Krages-Str. 32<br/>
+                      28237 Bremen
                     </p>
                   </div>
                   
                   <div className="p-4 bg-white/60 rounded-xl border border-white/40">
                     <p className="text-gray-700">
-                      <strong className="text-primary">E-Mail:</strong> info@treffer-heizoel.de<br/>
-                      <strong className="text-primary">Telefon:</strong> 0221 29291090
+                      <strong className="text-primary">E-Mail:</strong> info@ahi-energie.de
                     </p>
                   </div>
                 </div>
@@ -319,10 +318,10 @@ const UeberUns = () => {
                 
                 <div className="space-y-4">
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">Amtsgericht:</strong> Augsburg HRB 322</p>
+                    <p className="text-gray-700"><strong className="text-primary">Amtsgericht:</strong> Bremen HRA 22763</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">USt-ID:</strong> DE427997071</p>
+                    <p className="text-gray-700"><strong className="text-primary">USt-ID:</strong> DE427997604</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
                     <p className="text-gray-700"><strong className="text-primary">Gründung:</strong> 1975</p>

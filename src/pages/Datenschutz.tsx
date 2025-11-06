@@ -27,10 +27,10 @@ const Datenschutz = () => {
                 <h3 className="text-lg font-semibold mb-2 mt-4">Verantwortliche Stelle</h3>
                 <div className="space-y-2">
                   <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
-                  <p><strong>Treffer GmbH</strong></p>
-                  <p>Anton-Jaumann-Str. 1</p>
-                  <p>86675 Buchdorf</p>
-                  <p>E-Mail: info@treffer-heizoel.de</p>
+                  <p><strong>AHI Energie KG</strong></p>
+                  <p>Louis-Krages-Str. 32</p>
+                  <p>28237 Bremen</p>
+                  <p>E-Mail: info@ahi-energie.de</p>
                 </div>
               </section>
 

@@ -2,22 +2,21 @@
 export const companyStructuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Treffer Heizöl",
-  "alternateName": "Treffer GmbH",
-  "url": "https://treffer-heizoel.de",
+  "name": "AHI-Energie",
+  "alternateName": "AHI Energie KG",
+  "url": "https://ahi-energie.de",
   "logo": "/lovable-uploads/treffer-logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+49-221-29291090",
     "contactType": "customer service",
-    "email": "info@treffer-heizoel.de",
+    "email": "info@ahi-energie.de",
     "availableLanguage": "German"
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Anton-Jaumann-Str. 1",
-    "addressLocality": "Buchdorf",
-    "postalCode": "86675",
+    "streetAddress": "Louis-Krages-Str. 32",
+    "addressLocality": "Bremen",
+    "postalCode": "28237",
     "addressCountry": "DE"
   },
   "foundingDate": "1975",
@@ -43,22 +42,21 @@ export const companyStructuredData = {
 export const localBusinessStructuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Treffer Heizöl",
+  "name": "AHI-Energie",
   "image": "/lovable-uploads/treffer-logo.png",
-  "@id": "https://treffer-heizoel.de",
-  "url": "https://treffer-heizoel.de",
-  "telephone": "+49-221-29291090",
+  "@id": "https://ahi-energie.de",
+  "url": "https://ahi-energie.de",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Anton-Jaumann-Str. 1",
-    "addressLocality": "Buchdorf",
-    "postalCode": "86675",
+    "streetAddress": "Louis-Krages-Str. 32",
+    "addressLocality": "Bremen",
+    "postalCode": "28237",
     "addressCountry": "DE"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 48.6734,
-    "longitude": 10.8652
+    "latitude": 53.0793,
+    "longitude": 8.8017
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",

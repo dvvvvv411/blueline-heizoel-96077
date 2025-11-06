@@ -14,12 +14,12 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-        <SEO
-        title="Treffer Heizöl | Premium Heizöl ab 70 Cent/L | Kostenlose Lieferung ab 2.000L"
+      <SEO
+        title="AHI-Energie | Premium Heizöl ab 70 Cent/L | Kostenlose Lieferung ab 2.000L"
         description="Premium Heizöl ab 70 Cent pro Liter mit kostenloser Lieferung ab 2.000L deutschlandweit. Jetzt Preis berechnen!"
-        keywords="Heizöl günstig, Heizöl bestellen, Heizöl Lieferung Deutschland, günstige Heizölpreise, Heizöl online kaufen, Bayern, Buchdorf"
+        keywords="Heizöl günstig, Heizöl bestellen, Heizöl Lieferung Deutschland, günstige Heizölpreise, Heizöl online kaufen, Bremen, Frankfurt am Main"
         structuredData={structuredData}
-        canonicalUrl="https://treffer-heizoel.de/"
+        canonicalUrl="https://ahi-energie.de/"
       />
       <Header />
       <HeroSection />

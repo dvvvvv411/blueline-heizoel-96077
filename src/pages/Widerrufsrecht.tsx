@@ -23,10 +23,10 @@ const Widerrufsrecht = () => {
                 <h3 className="text-lg font-semibold mb-2 mt-6">Ausübung des Widerrufsrechts</h3>
                 <p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns</p>
                 <div className="ml-4 mt-2 space-y-1">
-                  <p><strong>Treffer GmbH</strong></p>
-                  <p>Anton-Jaumann-Str. 1</p>
-                  <p>86675 Buchdorf</p>
-                  <p>E-Mail: info@treffer-heizoel.de</p>
+                  <p><strong>AHI Energie KG</strong></p>
+                  <p>Louis-Krages-Str. 32</p>
+                  <p>28237 Bremen</p>
+                  <p>E-Mail: info@ahi-energie.de</p>
                 </div>
                 <p className="mt-2">mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.</p>
               </section>
@@ -52,8 +52,8 @@ const Widerrufsrecht = () => {
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
                   <p className="font-semibold mb-4">Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück:</p>
                   <div className="space-y-2 text-sm">
-                    <p>An: Treffer GmbH, Anton-Jaumann-Str. 1, 86675 Buchdorf</p>
-                    <p>E-Mail: info@treffer-heizoel.de</p>
+                    <p>An: AHI Energie KG, Louis-Krages-Str. 32, 28237 Bremen</p>
+                    <p>E-Mail: info@ahi-energie.de</p>
                     <br />
                     <p>Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden Waren (*):</p>
                     <p>_________________________________</p>

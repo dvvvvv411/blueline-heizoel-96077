@@ -15,7 +15,7 @@ const AGB = () => {
             <div className="space-y-8 text-gray-700">
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 1 Geltungsbereich</h2>
-                <p>Diese Allgemeinen Geschäftsbedingungen gelten für alle Geschäftsbeziehungen zwischen der Treffer GmbH (nachfolgend "Verkäufer") und ihren Kunden (nachfolgend "Käufer"). Abweichende Bedingungen des Käufers werden nicht anerkannt, es sei denn, der Verkäufer stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+                <p>Diese Allgemeinen Geschäftsbedingungen gelten für alle Geschäftsbeziehungen zwischen der AHI Energie KG (nachfolgend "Verkäufer") und ihren Kunden (nachfolgend "Käufer"). Abweichende Bedingungen des Käufers werden nicht anerkannt, es sei denn, der Verkäufer stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
               </section>
 
               <section>
@@ -62,7 +62,7 @@ const AGB = () => {
 
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 8 Schlussbestimmungen</h2>
-                <p>Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Gerichtsstand für alle Streitigkeiten ist Augsburg, sofern der Käufer Kaufmann ist.</p>
+                <p>Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Gerichtsstand für alle Streitigkeiten ist Bremen, sofern der Käufer Kaufmann ist.</p>
               </section>
             </div>
           </div>

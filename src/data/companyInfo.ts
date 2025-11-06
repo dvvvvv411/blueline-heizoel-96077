@@ -1,24 +1,24 @@
 export const companyInfo = {
   // Brand Information
-  brandName: "Treffer Heizöl",
-  legalName: "Treffer GmbH",
+  brandName: "AHI-Energie",
+  legalName: "AHI Energie KG",
   
   // Address
-  street: "Anton-Jaumann-Str. 1",
-  postalCode: "86675",
-  city: "Buchdorf",
+  street: "Louis-Krages-Str. 32",
+  postalCode: "28237",
+  city: "Bremen",
   country: "DE",
   
   // Contact Information
-  email: "info@treffer-heizoel.de",
-  phoneDisplay: "0221 29291090",
-  phoneIntl: "+49 221 29291090",
-  phoneTel: "+4922129291090",
+  email: "info@ahi-energie.de",
+  phoneDisplay: "",
+  phoneIntl: "",
+  phoneTel: "",
   
   // Legal Information
-  court: "Amtsgericht Augsburg",
-  hrb: "HRB 322",
-  vatId: "DE427997071",
+  court: "Amtsgericht Bremen",
+  hrb: "HRA 22763",
+  vatId: "DE427997604",
   ceo: "",
   
   // Business Information
@@ -28,17 +28,17 @@ export const companyInfo = {
   // Assets
   logo: "/lovable-uploads/treffer-logo.png",
   
-  // Geographic Coordinates (Buchdorf, near Anton-Jaumann-Str. 1)
+  // Geographic Coordinates (Bremen, Louis-Krages-Str. 32)
   geo: {
-    lat: 48.6734,
-    lng: 10.8652
+    lat: 53.0793,
+    lng: 8.8017
   },
   
   // Website
-  website: "https://treffer-heizoel.de",
+  website: "https://ahi-energie.de",
   
   // Full address string
-  fullAddress: "Anton-Jaumann-Str. 1, 86675 Buchdorf",
+  fullAddress: "Louis-Krages-Str. 32, 28237 Bremen",
   
   // Company description
   shortDescription: "Ihr vertrauensvoller Partner für hochwertiges Heizöl. Deutschlandweite Premium-Lieferung ab 70 Cent pro Liter.",

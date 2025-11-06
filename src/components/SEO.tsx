@@ -14,7 +14,7 @@ interface SEOProps {
 const SEO = ({ 
   title, 
   description, 
-  keywords = "Heizöl, günstig, Lieferung, Bayern, Buchdorf, Deutschland, 70 Cent",
+  keywords = "Heizöl, günstig, Lieferung, Frankfurt am Main, Bremen, Deutschland, 70 Cent",
   ogImage = "https://i.imgur.com/jOSkXXt.png",
   ogType = "website",
   canonicalUrl,
@@ -47,7 +47,7 @@ const SEO = ({
     updateMetaTag('og:description', description, true);
     updateMetaTag('og:type', ogType, true);
     updateMetaTag('og:image', ogImage, true);
-    updateMetaTag('og:site_name', 'Treffer Heizöl', true);
+    updateMetaTag('og:site_name', 'AHI-Energie', true);
 
     // Twitter tags
     updateMetaTag('twitter:card', 'summary_large_image');

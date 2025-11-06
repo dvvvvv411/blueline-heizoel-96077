@@ -63,7 +63,7 @@ const Header = () => {
             <Link to="/" onClick={handleNavClick} className="group">
               <img 
                 src="/lovable-uploads/treffer-logo.png" 
-                alt="Treffer Heizöl" 
+                alt="AHI-Energie" 
                 className="h-20 w-auto transition-transform duration-300 group-hover:scale-105"
               />
             </Link>

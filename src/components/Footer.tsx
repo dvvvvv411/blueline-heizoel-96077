@@ -17,7 +17,7 @@ const Footer = () => {
               <div>
                 <img 
                   src="/lovable-uploads/treffer-logo.png" 
-                  alt="Treffer Heizöl" 
+                  alt="AHI-Energie" 
                   className="h-24 w-auto mb-4"
                 />
                 <p className="text-gray-300 text-sm leading-relaxed">
@@ -38,19 +38,7 @@ const Footer = () => {
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center mt-1 group-hover:bg-white/30 transition-colors duration-300">
                     <MapPin className="w-4 h-4 text-white" />
                   </div>
-                  <span className="text-gray-200 text-sm">Anton-Jaumann-Str. 1, 86675 Buchdorf</span>
-                </div>
-                
-                <div className="group flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center group-hover:bg-white/30 transition-colors duration-300">
-                    <Phone className="w-4 h-4 text-white" />
-                  </div>
-              <a 
-                href="tel:+4922129291090" 
-                className="text-gray-200 text-sm hover:text-white transition-colors duration-300"
-              >
-                0221 29291090
-              </a>
+                  <span className="text-gray-200 text-sm">Louis-Krages-Str. 32, 28237 Bremen</span>
                 </div>
                 
                 <div className="group flex items-center space-x-3">
@@ -58,10 +46,10 @@ const Footer = () => {
                     <Mail className="w-4 h-4 text-white" />
                   </div>
                   <a 
-                    href="mailto:info@treffer-heizoel.de" 
+                    href="mailto:info@ahi-energie.de" 
                     className="text-gray-200 text-sm hover:text-white transition-colors duration-300"
                   >
-                    info@treffer-heizoel.de
+                    info@ahi-energie.de
                   </a>
                 </div>
               </div>
@@ -166,8 +154,8 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-8">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-6">
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 text-white/90 text-sm">
-                <span className="text-center sm:text-left">© 2025 Treffer Heizöl. Alle Rechte vorbehalten.</span>
-                <span className="text-center sm:text-left">Amtsgericht Augsburg HRB 322 | USt-ID: DE427997071</span>
+                <span className="text-center sm:text-left">© 2025 AHI-Energie. Alle Rechte vorbehalten.</span>
+                <span className="text-center sm:text-left">Amtsgericht Bremen HRA 22763 | USt-ID: DE427997604</span>
               </div>
               <div className="text-sm text-white/90 bg-white/15 px-4 py-2 rounded-full border border-white/30 text-center md:whitespace-nowrap mx-auto md:mx-0">
                 Made with ❤️ in Germany

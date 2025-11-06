@@ -83,8 +83,8 @@ const TrustSection = () => {
             Was unsere <span className="gradient-text">Kunden sagen</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Treffer Heizöl beliefert über 100.000 zufriedene Kunden in ganz Deutschland. 
-            Aus Bayern heraus liefern wir Premium-Heizöl bundesweit – lesen Sie, was unsere Kunden sagen.
+            AHI-Energie beliefert über 100.000 zufriedene Kunden in ganz Deutschland. 
+            Aus Frankfurt am Main heraus liefern wir Premium-Heizöl bundesweit – lesen Sie, was unsere Kunden sagen.
           </p>
         </div>
 

@@ -10,10 +10,10 @@ const HeizoelSorten = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Heizöl-Sorten | Standard & Premium Heizöl | Treffer Heizöl"
+        title="Heizöl-Sorten | Standard & Premium Heizöl | AHI-Energie"
         description="Hochwertige Heizöl-Sorten: Standard Heizöl EL ab 70 Cent/L und Premium Heizöl Plus ab 73 Cent/L. Schwefelarm, DIN-Norm konform. Jetzt bestellen!"
-        keywords="Heizöl Sorten, Standard Heizöl EL, Premium Heizöl Plus, schwefelarmes Heizöl, DIN 51603-1, Bayern, Buchdorf"
-        canonicalUrl="https://treffer-heizoel.de/heizoelsorten"
+        keywords="Heizöl Sorten, Standard Heizöl EL, Premium Heizöl Plus, schwefelarmes Heizöl, DIN 51603-1, Bremen, Frankfurt am Main"
+        canonicalUrl="https://ahi-energie.de/heizoelsorten"
       />
       <Header />
       
