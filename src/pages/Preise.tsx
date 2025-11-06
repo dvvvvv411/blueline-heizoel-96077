@@ -69,20 +69,20 @@ const Preise = () => {
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
-                    <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <div className="flex items-center space-x-3 p-3 rounded-xl bg-red-50">
+                    <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">DIN 51603-1 Qualität</p>
                   </div>
-                  <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
-                    <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <div className="flex items-center space-x-3 p-3 rounded-xl bg-red-50">
+                    <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Schwefelarm</p>
                   </div>
-                  <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
-                    <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <div className="flex items-center space-x-3 p-3 rounded-xl bg-red-50">
+                    <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Sofort verfügbar</p>
                   </div>
-                  <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
-                    <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <div className="flex items-center space-x-3 p-3 rounded-xl bg-red-50">
+                    <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Für alle Ölheizungen</p>
                   </div>
                 </div>
@@ -173,25 +173,25 @@ const Preise = () => {
               
               <div className="grid lg:grid-cols-2 gap-12">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl transform rotate-1"></div>
-                  <div className="relative bg-white border border-green-200/50 rounded-2xl p-8">
+                  <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-red-50 rounded-2xl transform rotate-1"></div>
+                  <div className="relative bg-white border border-red-200/50 rounded-2xl p-8">
                     <div className="flex items-center mb-6">
-                      <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
+                      <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mr-4">
                         <span className="text-2xl">✓</span>
                       </div>
                       <h3 className="text-2xl font-bold text-gray-900">Garantiert</h3>
                     </div>
                     <div className="space-y-4">
                       <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                         <p className="text-gray-700">Festpreis bei Bestellung</p>
                       </div>
                       <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                         <p className="text-gray-700">Keine nachträglichen Kosten</p>
                       </div>
                       <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                         <p className="text-gray-700">Transparente Preisgestaltung</p>
                       </div>
                     </div>

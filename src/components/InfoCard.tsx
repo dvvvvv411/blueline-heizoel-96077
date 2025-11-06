@@ -13,7 +13,7 @@ interface InfoCardProps {
 
 const InfoCard = ({ title, description, icon: Icon, children, className = '' }: InfoCardProps) => {
   return (
-    <Card className={`bg-white/80 backdrop-blur-md border border-emerald-200/50 rounded-2xl shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 hover-scale h-full ${className}`}>
+    <Card className={`bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 hover-scale h-full ${className}`}>
       <CardHeader>
         {Icon && (
           <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">

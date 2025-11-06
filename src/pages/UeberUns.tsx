@@ -98,9 +98,9 @@ const UeberUns = () => {
                     <span className="text-gray-600 font-medium">Kunden:</span>
                     <span className="font-bold text-primary text-lg">100.000+</span>
                   </div>
-                  <div className="flex justify-between items-center p-4 bg-gradient-to-r from-emerald-50 to-green-50 rounded-xl border-2 border-emerald-300">
+                  <div className="flex justify-between items-center p-4 bg-gradient-to-r from-red-50 to-red-50 rounded-xl border-2 border-red-300">
                     <span className="text-gray-600 font-medium">Expertise:</span>
-                    <span className="font-bold text-emerald-700 text-xl">50+ Jahre</span>
+                    <span className="font-bold text-red-700 text-xl">50+ Jahre</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <span className="text-gray-600 font-medium">Bestellung:</span>
@@ -157,10 +157,10 @@ const UeberUns = () => {
             </div>
 
             <div className="group">
-            <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
+              <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl flex items-center justify-center mx-auto">
-                    <Wrench className="w-8 h-8 text-green-600" />
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-red-100 rounded-2xl flex items-center justify-center mx-auto">
+                    <Wrench className="w-8 h-8 text-red-600" />
                   </div>
                 </div>
                 <div className="text-center">
@@ -234,30 +234,30 @@ const UeberUns = () => {
             </div>
 
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
-              <div className="relative bg-white/80 backdrop-blur-md border border-green-200/50 rounded-3xl p-10 shadow-md hover:shadow-xl hover:bg-white/90 transition-all duration-300">
+              <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-red-50 rounded-3xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
+              <div className="relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-3xl p-10 shadow-md hover:shadow-xl hover:bg-white/90 transition-all duration-300">
                 <div className="flex items-center mb-8">
-                  <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl flex items-center justify-center mr-6">
-                    <Users className="w-8 h-8 text-green-600" />
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-red-100 rounded-2xl flex items-center justify-center mr-6">
+                    <Users className="w-8 h-8 text-red-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Kundenservice</h3>
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-green-50/50 hover:bg-green-50 transition-colors duration-200">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-red-50/50 hover:bg-red-50 transition-colors duration-200">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">24/7 Notfall-Hotline für Geschäftskunden</p>
                   </div>
-                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-green-50/50 hover:bg-green-50 transition-colors duration-200">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-red-50/50 hover:bg-red-50 transition-colors duration-200">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">SMS/E-Mail Benachrichtigung vor Lieferung</p>
                   </div>
-                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-green-50/50 hover:bg-green-50 transition-colors duration-200">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-red-50/50 hover:bg-red-50 transition-colors duration-200">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Online-Kundenbereich mit Lieferhistorie</p>
                   </div>
-                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-green-50/50 hover:bg-green-50 transition-colors duration-200">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-red-50/50 hover:bg-red-50 transition-colors duration-200">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Flexible Zahlungskonditionen</p>
                   </div>
                 </div>

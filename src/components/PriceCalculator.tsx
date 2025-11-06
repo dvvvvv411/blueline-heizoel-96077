@@ -182,7 +182,7 @@ const PriceCalculator = () => {
         {/* Right Column - Price Breakdown */}
         <div className="flex flex-col h-full space-y-6">
           {/* Price Breakdown */}
-          <div className="flex-1 flex flex-col bg-white/75 border border-emerald-200/50 rounded-xl p-6 space-y-4 shadow-sm">
+          <div className="flex-1 flex flex-col bg-white/75 border border-red-200/50 rounded-xl p-6 space-y-4 shadow-sm">
             <h4 className="text-lg font-semibold text-gray-900 mb-4">Preisübersicht</h4>
             
             <div className="flex justify-between items-center">
@@ -196,7 +196,7 @@ const PriceCalculator = () => {
                   <Truck className="w-4 h-4 text-gray-400" />
                   <span className="text-gray-600">Lieferung</span>
                 </div>
-                <span className={`font-semibold whitespace-nowrap ${deliveryFee === 0 ? 'text-green-600' : ''}`}>
+                <span className={`font-semibold whitespace-nowrap ${deliveryFee === 0 ? 'text-red-600' : ''}`}>
                   {deliveryFee === 0 ? 'KOSTENLOS' : `${deliveryFee.toFixed(2)} €`}
                 </span>
               </div>
@@ -204,14 +204,14 @@ const PriceCalculator = () => {
             </div>
             
             {deliveryFee === 0 && (
-              <div className="bg-green-100 text-green-800 px-3 py-2 rounded-lg text-sm font-medium text-center">
+              <div className="bg-red-100 text-red-800 px-3 py-2 rounded-lg text-sm font-medium text-center">
                 🎉 Sie sparen {45} € Lieferkosten!
               </div>
             )}
             
             <div className="border-t pt-4">
               <p className="text-xl font-bold text-gray-900">Gesamtpreis</p>
-              <p className="text-4xl font-extrabold text-emerald-600 whitespace-nowrap mt-1">{totalPrice.toFixed(2)} €</p>
+              <p className="text-4xl font-extrabold text-red-600 whitespace-nowrap mt-1">{totalPrice.toFixed(2)} €</p>
               <p className="text-sm text-gray-500 mt-1">(inkl. MwSt.)</p>
             </div>
           </div>
@@ -221,7 +221,7 @@ const PriceCalculator = () => {
             <Button 
               onClick={handleOrder}
               disabled={!postalCode || postalCode.length !== 5 || liters < 1500 || isProcessing}
-              className="w-full bg-emerald-600 hover:bg-emerald-700 text-white text-lg py-6 rounded-xl font-semibold transition-all hover-scale"
+              className="w-full bg-red-600 hover:bg-red-700 text-white text-lg py-6 rounded-xl font-semibold transition-all hover-scale"
             >
               {isProcessing ? (
                 <div className="flex items-center space-x-2">

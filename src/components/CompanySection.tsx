@@ -7,7 +7,7 @@ const CompanySection = () => {
       icon: Award,
       title: "DIN EN 10203",
       description: "Zertifizierte Qualität",
-      color: "from-emerald-500 to-green-600"
+      color: "from-red-500 to-red-600"
     },
     {
       icon: Shield,
@@ -53,7 +53,7 @@ const CompanySection = () => {
           info@treffer-heizoel.de
         </a>
       ),
-      color: "from-emerald-500 to-green-600"
+      color: "from-red-500 to-red-600"
     },
     {
       icon: Clock,
@@ -69,15 +69,15 @@ const CompanySection = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-emerald-50/30 to-green-50/20 relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-red-50/30 to-red-50/20 relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,rgba(16,185,129,0.06),transparent)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,rgba(255,71,87,0.06),transparent)]"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-start">
           {/* Company Info */}
           <div className="animate-fade-in">
-            <div className="inline-block bg-emerald-500/10 text-emerald-700 px-6 py-2 rounded-full text-sm font-semibold mb-6">
+            <div className="inline-block bg-red-500/10 text-red-700 px-6 py-2 rounded-full text-sm font-semibold mb-6">
               Über uns
             </div>
             
@@ -94,7 +94,7 @@ const CompanySection = () => {
               
               <p>
                 Durch direkte Raffineriekooperationen und optimierte Logistik bieten wir Ihnen 
-                <span className="font-semibold text-emerald-700"> Premium Heizöl ab 70 Cent pro Liter</span> – von Bayern nach ganz Deutschland geliefert.
+                <span className="font-semibold text-red-700"> Premium Heizöl ab 70 Cent pro Liter</span> – von Bayern nach ganz Deutschland geliefert.
               </p>
               
               <p>
@@ -112,7 +112,7 @@ const CompanySection = () => {
                 return (
                   <div 
                     key={index}
-                    className="group bg-white/80 backdrop-blur-md border border-emerald-200/50 rounded-2xl p-6 shadow-md hover:shadow-lg hover:-translate-y-1 hover:bg-white/90 transition-all duration-500 animate-fade-in"
+                    className="group bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-6 shadow-md hover:shadow-lg hover:-translate-y-1 hover:bg-white/90 transition-all duration-500 animate-fade-in"
                     style={{ animationDelay: `${0.2 + index * 0.1}s` }}
                   >
                     <div className={`w-12 h-12 bg-gradient-to-br ${feature.color} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
@@ -129,7 +129,7 @@ const CompanySection = () => {
           {/* Contact & Legal Section */}
           <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
             {/* Contact Card */}
-            <div className="bg-white/85 backdrop-blur-md border border-emerald-200/50 rounded-3xl p-8 mb-8 shadow-md hover:shadow-xl hover:bg-white/93 transition-all duration-500">
+            <div className="bg-white/85 backdrop-blur-md border border-red-200/50 rounded-3xl p-8 mb-8 shadow-md hover:shadow-xl hover:bg-white/93 transition-all duration-500">
               <div className="text-center mb-8">
                 <h3 className="text-3xl font-bold text-gray-900 mb-3">
                   Kontakt & Standort

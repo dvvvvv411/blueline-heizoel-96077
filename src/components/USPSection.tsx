@@ -8,7 +8,7 @@ const USPSection = () => {
       title: "Ab 70 Cent pro Liter",
       description: "Marktführende Preise für Standard- und Premium-Heizöl durch optimierte Beschaffung und direkte Raffineriekooperationen.",
       highlight: "Bis zu 30% günstiger",
-      accent: "from-emerald-500 to-green-600"
+      accent: "from-red-500 to-red-600"
     },
     {
       icon: Truck,
@@ -27,16 +27,16 @@ const USPSection = () => {
   ];
 
   const stats = [
-    { icon: TrendingDown, value: "100.000+", label: "Zufriedene Kunden", color: "text-emerald-600" },
+    { icon: TrendingDown, value: "100.000+", label: "Zufriedene Kunden", color: "text-red-600" },
     { icon: MapPin, value: "50M+", label: "Liter geliefert", color: "text-red-600" },
     { icon: Award, value: "24/7", label: "Bestellung", color: "text-purple-600" },
     { icon: Shield, value: "99%", label: "Kundenzufriedenheit", color: "text-orange-600" }
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-emerald-50/30 to-white relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-red-50/30 to-white relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(5,150,105,0.06),transparent)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,71,87,0.06),transparent)]"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
@@ -59,7 +59,7 @@ const USPSection = () => {
             return (
               <div 
                 key={index}
-                className="group relative bg-white/80 backdrop-blur-md border border-emerald-200/50 rounded-3xl p-8 shadow-md hover:shadow-2xl hover:shadow-emerald-600/10 hover:bg-white/90 hover:backdrop-blur-lg transition-all duration-700 hover:-translate-y-2 animate-fade-in"
+                className="group relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-3xl p-8 shadow-md hover:shadow-2xl hover:shadow-red-600/10 hover:bg-white/90 hover:backdrop-blur-lg transition-all duration-700 hover:-translate-y-2 animate-fade-in"
                 style={{ animationDelay: `${index * 0.15}s` }}
               >
                 {/* Background Gradient */}
@@ -96,7 +96,7 @@ const USPSection = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="bg-white/85 backdrop-blur-md rounded-3xl border border-emerald-200/50 p-8 md:p-12 shadow-md">
+        <div className="bg-white/85 backdrop-blur-md rounded-3xl border border-red-200/50 p-8 md:p-12 shadow-md">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">Vertrauen durch Zahlen</h3>
             <p className="text-gray-600 max-w-2xl mx-auto">

@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div 
         className="absolute top-[10%] left-[15%] w-[500px] h-[500px] rounded-full pointer-events-none animate-float-1"
         style={{
-          background: 'radial-gradient(circle, rgba(5,150,105,0.12) 0%, rgba(5,150,105,0.06) 40%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(255,71,87,0.12) 0%, rgba(255,71,87,0.06) 40%, transparent 70%)',
           filter: 'blur(60px)',
         }}
       ></div>
@@ -34,7 +34,7 @@ const HeroSection = () => {
       <div 
         className="absolute top-[40%] right-[10%] w-[600px] h-[600px] rounded-full pointer-events-none animate-float-2"
         style={{
-          background: 'radial-gradient(circle, rgba(5,150,105,0.1) 0%, rgba(5,150,105,0.04) 35%, transparent 65%)',
+          background: 'radial-gradient(circle, rgba(255,71,87,0.1) 0%, rgba(255,71,87,0.04) 35%, transparent 65%)',
           filter: 'blur(70px)',
         }}
       ></div>
@@ -43,7 +43,7 @@ const HeroSection = () => {
       <div 
         className="absolute bottom-[15%] left-[50%] w-[700px] h-[700px] rounded-full pointer-events-none animate-float-3"
         style={{
-          background: 'radial-gradient(circle, rgba(16,185,129,0.08) 0%, rgba(5,150,105,0.03) 45%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(230,57,70,0.08) 0%, rgba(255,71,87,0.03) 45%, transparent 70%)',
           filter: 'blur(80px)',
         }}
       ></div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
       <div 
         className="absolute top-[5%] right-[20%] w-[400px] h-[400px] rounded-full pointer-events-none animate-float-1"
         style={{
-          background: 'radial-gradient(circle, rgba(16,185,129,0.09) 0%, transparent 60%)',
+          background: 'radial-gradient(circle, rgba(230,57,70,0.09) 0%, transparent 60%)',
           filter: 'blur(50px)',
           animationDelay: '3s'
         }}
@@ -62,7 +62,7 @@ const HeroSection = () => {
       <div 
         className="absolute bottom-[10%] left-[20%] w-[550px] h-[550px] rounded-full pointer-events-none animate-float-2"
         style={{
-          background: 'radial-gradient(circle, rgba(5,150,105,0.07) 0%, rgba(16,185,129,0.04) 50%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(255,71,87,0.07) 0%, rgba(230,57,70,0.04) 50%, transparent 70%)',
           filter: 'blur(65px)',
           animationDelay: '5s'
         }}
@@ -75,7 +75,7 @@ const HeroSection = () => {
             {/* Trust Badges */}
             <div className="flex flex-wrap gap-3">
               <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-2 shadow-sm">
-                <Award className="w-4 h-4 text-emerald-600" />
+                <Award className="w-4 h-4 text-red-600" />
                 <span className="text-sm font-medium text-gray-700">Seit 1975 – 50 Jahre Expertise</span>
               </div>
               <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-2 shadow-sm">
@@ -92,15 +92,15 @@ const HeroSection = () => {
             <div className="space-y-6">
               <div className="space-y-3">
                 <h1 className="text-5xl lg:text-6xl xl:text-7xl font-black text-gray-900 leading-[0.9] tracking-tight">
-                  <span className="text-emerald-600 font-black">Günstigster Heizöl-Anbieter</span>
+                  <span className="text-red-600 font-black">Günstigster Heizöl-Anbieter</span>
                   <br />
                   <span className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-600">aus Bayern für ganz Deutschland</span>
                 </h1>
-                <div className="w-24 h-1 bg-gradient-to-r from-emerald-600 to-emerald-400 rounded-full"></div>
+                <div className="w-24 h-1 bg-gradient-to-r from-red-600 to-red-400 rounded-full"></div>
               </div>
               
               <h2 className="text-2xl lg:text-3xl text-gray-700 font-light leading-relaxed">
-                Premium Heizöl ab <span className="font-bold text-emerald-600">70 Cent pro Liter</span>
+                Premium Heizöl ab <span className="font-bold text-red-600">70 Cent pro Liter</span>
                 <br />
                 <span className="text-xl text-gray-600">Kostenlose Lieferung ab 2.000L – von Bayern nach ganz Deutschland</span>
               </h2>
@@ -146,11 +146,11 @@ const HeroSection = () => {
             <div className="space-y-4">
               <p className="text-xl text-gray-700 leading-relaxed">
                 Seit 1975 liefern wir als traditionsreicher Heizöl-Händler aus Bayern Premium-Qualität 
-                zu<span className="font-semibold text-emerald-600"> bis zu 30% günstigeren Preisen</span> als lokale Anbieter – deutschlandweit. 
+                zu<span className="font-semibold text-red-600"> bis zu 30% günstigeren Preisen</span> als lokale Anbieter – deutschlandweit.
                 50 Jahre Erfahrung garantieren höchste Qualität und Zuverlässigkeit.
               </p>
               <div className="flex items-center gap-2 text-sm text-gray-600">
-                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
                 <span>Von Bayern aus vertrauen über 100.000 Kunden bundesweit auf unsere Qualität</span>
               </div>
             </div>

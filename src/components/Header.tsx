@@ -53,8 +53,8 @@ const Header = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
-        ? 'bg-emerald-600 backdrop-blur-xl border-b border-emerald-800/30 shadow-lg shadow-black/10' 
-        : 'bg-emerald-600/95 backdrop-blur-md border-b border-emerald-800/20'
+        ? 'bg-red-600 backdrop-blur-xl border-b border-red-800/30 shadow-lg shadow-black/10' 
+        : 'bg-red-600/95 backdrop-blur-md border-b border-red-800/20'
     }`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-24">
@@ -94,7 +94,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <button 
               onClick={scrollToPriceCalculator}
-              className="hidden sm:flex items-center space-x-2 bg-white text-emerald-600 px-6 py-2.5 rounded-xl font-medium shadow-lg shadow-black/10 hover:shadow-xl hover:shadow-black/20 hover:bg-gray-50 transition-all duration-300 hover:scale-105"
+              className="hidden sm:flex items-center space-x-2 bg-white text-red-600 px-6 py-2.5 rounded-xl font-medium shadow-lg shadow-black/10 hover:shadow-xl hover:shadow-black/20 hover:bg-gray-50 transition-all duration-300 hover:scale-105"
             >
               <Calculator className="w-4 h-4" />
               <span>zum Preisrechner</span>
@@ -117,7 +117,7 @@ const Header = () => {
         <div className={`lg:hidden transition-all duration-300 overflow-hidden ${
           isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
         }`}>
-          <div className="py-4 border-t border-emerald-800/30">
+          <div className="py-4 border-t border-red-800/30">
             <nav className="flex flex-col space-y-1">
               {navigation.map((item) => (
                 <Link
@@ -135,7 +135,7 @@ const Header = () => {
               ))}
               <button 
                 onClick={scrollToPriceCalculator}
-                className="sm:hidden mt-4 flex items-center justify-center space-x-2 bg-white text-emerald-600 px-4 py-3 rounded-xl font-medium shadow-lg shadow-black/10"
+                className="sm:hidden mt-4 flex items-center justify-center space-x-2 bg-white text-red-600 px-4 py-3 rounded-xl font-medium shadow-lg shadow-black/10"
               >
                 <Calculator className="w-4 h-4" />
                 <span>zum Preisrechner</span>

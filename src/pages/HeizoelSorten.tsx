@@ -215,25 +215,25 @@ const HeizoelSorten = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Empfehlungen */}
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl transform rotate-1"></div>
-              <div className="relative bg-white/80 backdrop-blur-md border border-green-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
+              <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-red-50 rounded-2xl transform rotate-1"></div>
+              <div className="relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
                 <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mr-4">
                     <span className="text-2xl">✓</span>
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Empfehlungen</h3>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700">Dunkle, kühle Lagerung</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700">Regelmäßige Tankwartung</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700">Schutz vor Kondenswasser</p>
                   </div>
                 </div>

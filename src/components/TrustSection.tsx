@@ -42,7 +42,7 @@ const TrustSection = () => {
       value: "50+",
       label: "Jahre Expertise",
       sublabel: "seit 1975",
-      color: "from-emerald-400 to-green-500"
+      color: "from-red-400 to-red-500"
     },
     {
       icon: Clock,
@@ -68,15 +68,15 @@ const TrustSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-emerald-50/30 relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-white to-red-50/30 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(16,185,129,0.08),transparent)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(255,71,87,0.08),transparent)]"></div>
       <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/5 to-transparent rounded-full blur-3xl"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center mb-20 animate-fade-in">
-          <div className="inline-block bg-gradient-to-r from-emerald-500/10 to-green-600/10 text-emerald-700 px-6 py-2 rounded-full text-sm font-semibold mb-6">
+          <div className="inline-block bg-gradient-to-r from-red-500/10 to-red-600/10 text-red-700 px-6 py-2 rounded-full text-sm font-semibold mb-6">
             Kundenzufriedenheit
           </div>
           <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
@@ -95,7 +95,7 @@ const TrustSection = () => {
             return (
               <div 
                 key={index}
-                className="group bg-white/80 backdrop-blur-md border border-emerald-200/50 rounded-2xl p-4 sm:p-6 text-center shadow-md hover:shadow-lg hover:-translate-y-1 hover:bg-white/90 transition-all duration-500 animate-fade-in overflow-hidden"
+                className="group bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-4 sm:p-6 text-center shadow-md hover:shadow-lg hover:-translate-y-1 hover:bg-white/90 transition-all duration-500 animate-fade-in overflow-hidden"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className={`w-12 h-12 bg-gradient-to-br ${indicator.color} rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
@@ -114,13 +114,13 @@ const TrustSection = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="group bg-white/85 backdrop-blur-md border border-emerald-200/50 rounded-3xl p-8 shadow-md hover:shadow-xl hover:shadow-emerald-500/5 hover:-translate-y-2 hover:bg-white/93 transition-all duration-700 animate-fade-in"
+              className="group bg-white/85 backdrop-blur-md border border-red-200/50 rounded-3xl p-8 shadow-md hover:shadow-xl hover:shadow-red-500/5 hover:-translate-y-2 hover:bg-white/93 transition-all duration-700 animate-fade-in"
               style={{ animationDelay: `${0.4 + index * 0.15}s` }}
             >
               {/* Quote Background */}
               <div className="relative">
-                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gradient-to-br from-emerald-500/20 to-green-600/20 rounded-full flex items-center justify-center">
-                  <Quote className="w-4 h-4 text-emerald-600" />
+                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gradient-to-br from-red-500/20 to-red-600/20 rounded-full flex items-center justify-center">
+                  <Quote className="w-4 h-4 text-red-600" />
                 </div>
                 
                 {/* Rating */}
@@ -137,7 +137,7 @@ const TrustSection = () => {
 
                 {/* Customer Info */}
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-emerald-500/20 to-green-600/20 rounded-full flex items-center justify-center font-semibold text-emerald-700">
+                  <div className="w-12 h-12 bg-gradient-to-br from-red-500/20 to-red-600/20 rounded-full flex items-center justify-center font-semibold text-red-700">
                     {testimonial.initial}
                   </div>
                   <div className="flex-1">
@@ -154,7 +154,7 @@ const TrustSection = () => {
         </div>
 
         {/* Security & Certifications */}
-        <div className="bg-gradient-to-r from-emerald-50/30 to-white/50 rounded-3xl border border-emerald-200/30 p-8 md:p-12 text-center">
+        <div className="bg-gradient-to-r from-red-50/30 to-white/50 rounded-3xl border border-red-200/30 p-8 md:p-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
             Sicherheit & Qualitätszertifikate
           </h3>
@@ -166,10 +166,10 @@ const TrustSection = () => {
             {securityBadges.map((badge, index) => (
               <div 
                 key={index}
-                className="group p-3 sm:p-4 rounded-2xl border border-emerald-200/50 bg-white/80 backdrop-blur-sm shadow-sm hover:bg-white/90 hover:shadow-md transition-all duration-300 animate-fade-in overflow-hidden"
+                className="group p-3 sm:p-4 rounded-2xl border border-red-200/50 bg-white/80 backdrop-blur-sm shadow-sm hover:bg-white/90 hover:shadow-md transition-all duration-300 animate-fade-in overflow-hidden"
                 style={{ animationDelay: `${0.8 + index * 0.1}s` }}
               >
-                <div className="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-emerald-600 transition-colors duration-300 break-words">
+                <div className="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-red-600 transition-colors duration-300 break-words">
                   {badge.name}
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600 break-words">
