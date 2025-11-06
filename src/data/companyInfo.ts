@@ -26,7 +26,7 @@ export const companyInfo = {
   yearsOfExperience: "50+",
   
   // Assets
-  logo: "/lovable-uploads/treffer-logo.png",
+  logo: "/lovable-uploads/ahi-energie-logo.png",
   
   // Geographic Coordinates (Bremen, Louis-Krages-Str. 32)
   geo: {

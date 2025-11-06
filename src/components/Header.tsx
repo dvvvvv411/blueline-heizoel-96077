@@ -62,7 +62,7 @@ const Header = () => {
           <div className="flex items-center lg:flex-none flex-1 lg:flex-initial justify-center lg:justify-start">
             <Link to="/" onClick={handleNavClick} className="group">
               <img 
-                src="/lovable-uploads/treffer-logo.png" 
+                src="/lovable-uploads/ahi-energie-logo.png" 
                 alt="AHI-Energie" 
                 className="h-20 w-auto transition-transform duration-300 group-hover:scale-105"
               />
