@@ -39,9 +39,9 @@ const TrustSection = () => {
     },
     {
       icon: Award,
-      value: "50+",
+      value: "20+",
       label: "Jahre Expertise",
-      sublabel: "seit 1975",
+      sublabel: "seit 2002",
       color: "from-red-400 to-red-500"
     },
     {
@@ -84,7 +84,7 @@ const TrustSection = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             AHI-Energie beliefert über 100.000 zufriedene Kunden in ganz Deutschland. 
-            Aus Frankfurt am Main heraus liefern wir Premium-Heizöl bundesweit – lesen Sie, was unsere Kunden sagen.
+            Aus Bremen heraus liefern wir Premium-Heizöl bundesweit – lesen Sie, was unsere Kunden sagen.
           </p>
         </div>
 

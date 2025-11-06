@@ -11,8 +11,8 @@ const UeberUns = () => {
     <div className="min-h-screen">
       <SEO
         title="Über uns & Service | AHI-Energie | Premium Heizöl-Händler"
-        description="AHI-Energie – Ihr vertrauensvoller Partner für Heizöl. Innovatives Unternehmen aus Frankfurt am Main mit über 100.000 zufriedenen Kunden deutschlandweit."
-        keywords="AHI-Energie, Bremen, Frankfurt am Main, Heizöl Unternehmen, Premium Heizöl"
+        description="AHI-Energie – Ihr vertrauensvoller Partner für Heizöl. Innovatives Unternehmen aus Bremen mit über 100.000 zufriedenen Kunden deutschlandweit."
+        keywords="AHI-Energie, Bremen, Heizöl Unternehmen, Premium Heizöl"
         canonicalUrl="https://ahi-energie.de/ueber-uns"
       />
       <Header />
@@ -31,7 +31,7 @@ const UeberUns = () => {
             </h1>
             
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ihr vertrauensvoller Partner für Heizöl in Frankfurt am Main und ganz Deutschland. 
+              Ihr vertrauensvoller Partner für Heizöl in Bremen und ganz Deutschland. 
               Digitaler Vorreiter mit Tradition und modernster Technik.
             </p>
           </div>
@@ -44,7 +44,7 @@ const UeberUns = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">AHI-Energie</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Ihre vertrauensvolle Adresse für Premium-Heizöl aus Frankfurt am Main
+              Ihre vertrauensvolle Adresse für Premium-Heizöl aus Bremen
             </p>
           </div>
           
@@ -54,17 +54,17 @@ const UeberUns = () => {
                 <h3 className="text-2xl font-bold mb-6 text-primary">Unsere Geschichte</h3>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed text-lg">
-                    Seit 1975 sind wir Ihr vertrauensvoller Partner für Premium-Heizöl in Frankfurt am Main 
-                    und ganz Deutschland. Mit über 50 Jahren Erfahrung und Expertise haben wir uns
-                    als einer der führenden Heizöl-Händler etabliert. Was vor einem halben Jahrhundert 
+                    Seit 2002 sind wir Ihr vertrauensvoller Partner für Premium-Heizöl in Bremen 
+                    und ganz Deutschland. Mit über 20 Jahren Erfahrung und Expertise haben wir uns
+                    als einer der führenden Heizöl-Händler etabliert. Was vor über zwei Jahrzehnten 
                     als familiengeführtes Unternehmen begann, ist heute ein modernes, deutschlandweit 
                     agierendes Premium-Unternehmen mit modernsten Tankfahrzeugen und volldigitalisierten 
                     Bestell- und Lieferprozessen.
                   </p>
                   <p className="text-gray-700 leading-relaxed text-lg">
-                    Unser Erfolgsrezept seit 1975: Die perfekte Kombination aus über 50 Jahren 
+                    Unser Erfolgsrezept seit 2002: Die perfekte Kombination aus über 20 Jahren 
                     Erfahrung, persönlicher Betreuung und modernster Technik. Transparente Preise 
-                    und absolute Zuverlässigkeit – Werte, die seit einem halben Jahrhundert Bestand haben. 
+                    und absolute Zuverlässigkeit – Werte, die seit über zwei Jahrzehnten Bestand haben. 
                     Über 100.000 zufriedene Kunden vertrauen bereits auf unseren bewährten Premium-Service.
                   </p>
                 </div>
@@ -84,7 +84,7 @@ const UeberUns = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <span className="text-gray-600 font-medium">Gegründet:</span>
-                    <span className="font-bold text-primary text-lg">1975</span>
+                    <span className="font-bold text-primary text-lg">2002</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-primary/5 rounded-xl border border-primary/20">
                     <span className="text-gray-600 font-medium">Standort:</span>
@@ -100,7 +100,7 @@ const UeberUns = () => {
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gradient-to-r from-red-50 to-red-50 rounded-xl border-2 border-red-300">
                     <span className="text-gray-600 font-medium">Expertise:</span>
-                    <span className="font-bold text-red-700 text-xl">50+ Jahre</span>
+                    <span className="font-bold text-red-700 text-xl">20+ Jahre</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <span className="text-gray-600 font-medium">Bestellung:</span>
@@ -324,7 +324,7 @@ const UeberUns = () => {
                     <p className="text-gray-700"><strong className="text-primary">USt-ID:</strong> DE427997604</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">Gründung:</strong> 1975</p>
+                    <p className="text-gray-700"><strong className="text-primary">Gründung:</strong> 2002</p>
                   </div>
                   
                   <div className="mt-6 p-4 bg-gray-50/80 rounded-xl border border-gray-200/50">

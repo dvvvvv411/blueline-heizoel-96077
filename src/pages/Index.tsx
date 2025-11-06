@@ -17,7 +17,7 @@ const Index = () => {
       <SEO
         title="AHI-Energie | Premium Heizöl ab 70 Cent/L | Kostenlose Lieferung ab 2.000L"
         description="Premium Heizöl ab 70 Cent pro Liter mit kostenloser Lieferung ab 2.000L deutschlandweit. Jetzt Preis berechnen!"
-        keywords="Heizöl günstig, Heizöl bestellen, Heizöl Lieferung Deutschland, günstige Heizölpreise, Heizöl online kaufen, Bremen, Frankfurt am Main"
+        keywords="Heizöl günstig, Heizöl bestellen, Heizöl Lieferung Deutschland, günstige Heizölpreise, Heizöl online kaufen, Bremen"
         structuredData={structuredData}
         canonicalUrl="https://ahi-energie.de/"
       />

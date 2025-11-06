@@ -18,7 +18,7 @@ const Preise = () => {
       <SEO
         title="Heizöl Preise & Konditionen | Ab 70 Cent/L | AHI-Energie"
         description="Transparente Heizöl-Preise ohne versteckte Kosten. Standard Heizöl ab 70 Cent/L, Premium ab 73 Cent/L. Preisgarantie bis zur Lieferung!"
-        keywords="Heizöl Preise, Heizöl Kosten, Preisgarantie, transparente Preise, Heizöl günstig kaufen, Frankfurt am Main"
+        keywords="Heizöl Preise, Heizöl Kosten, Preisgarantie, transparente Preise, Heizöl günstig kaufen, Bremen"
         canonicalUrl="https://ahi-energie.de/preise"
       />
       <Header />

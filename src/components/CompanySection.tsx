@@ -87,20 +87,20 @@ const CompanySection = () => {
             
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed mb-12">
               <p>
-                Seit 1975 Ihr verlässlicher Partner für Premium-Heizöl aus Frankfurt am Main. 
-                Mit über 50 Jahren Erfahrung und Expertise beliefern wir Privat- und 
+                Seit 2002 Ihr verlässlicher Partner für Premium-Heizöl aus Bremen. 
+                Mit über 20 Jahren Erfahrung und Expertise beliefern wir Privat- und 
                 Geschäftskunden bundesweit mit erstklassigem Heizöl zu unschlagbaren Konditionen.
               </p>
               
               <p>
                 Durch direkte Raffineriekooperationen und optimierte Logistik bieten wir Ihnen 
-                <span className="font-semibold text-red-700"> Premium Heizöl ab 70 Cent pro Liter</span> – von Frankfurt am Main nach ganz Deutschland geliefert.
+                <span className="font-semibold text-red-700"> Premium Heizöl ab 70 Cent pro Liter</span> – von Bremen nach ganz Deutschland geliefert.
               </p>
               
               <p>
-                Unser Versprechen seit 1975: Transparente Preise, bewährter Premium-Service 
+                Unser Versprechen seit 2002: Transparente Preise, bewährter Premium-Service 
                 und kostenlose Lieferung ab 2.000 Litern deutschlandweit. 
-                50 Jahre Erfahrung, über 100.000 zufriedene Kunden in ganz Deutschland – 
+                20+ Jahre Erfahrung, über 100.000 zufriedene Kunden in ganz Deutschland – 
                 das ist die AHI-Energie Garantie.
               </p>
             </div>

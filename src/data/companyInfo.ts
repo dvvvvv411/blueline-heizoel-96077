@@ -22,8 +22,8 @@ export const companyInfo = {
   ceo: "",
   
   // Business Information
-  foundingYear: "1975",
-  yearsOfExperience: "50+",
+  foundingYear: "2002",
+  yearsOfExperience: "20+",
   
   // Assets
   logo: "/lovable-uploads/ahi-energie-logo.png",

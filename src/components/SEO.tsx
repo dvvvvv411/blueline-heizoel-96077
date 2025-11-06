@@ -14,7 +14,7 @@ interface SEOProps {
 const SEO = ({ 
   title, 
   description, 
-  keywords = "Heizöl, günstig, Lieferung, Frankfurt am Main, Bremen, Deutschland, 70 Cent",
+  keywords = "Heizöl, günstig, Lieferung, Bremen, Deutschland, 70 Cent",
   ogImage = "https://i.imgur.com/jOSkXXt.png",
   ogType = "website",
   canonicalUrl,
