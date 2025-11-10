@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     strictPort: true,
+    allowedHosts: ['ahi-energie.de'],
     hmr: {
       clientPort: 443,
       host: 'ahi-energie.de',
@@ -18,6 +19,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 4173,
     strictPort: true,
+    allowedHosts: ['ahi-energie.de'],
   },
   plugins: [
     react(),
