@@ -14,6 +14,11 @@ export default defineConfig(({ mode }) => ({
       host: 'ahi-energie.de',
     },
   },
+  preview: {
+    host: "::",
+    port: 4173,
+    strictPort: true,
+  },
   plugins: [
     react(),
     mode === 'development' &&
